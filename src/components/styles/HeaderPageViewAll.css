@@ -1,0 +1,79 @@
+.header-page-view-all {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: white;
+    width: 390px;
+    border-radius: 8px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.back-button {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 211px;
+    height: 42px;
+    background: #282828;
+    color: #C8C8C8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.lucky-button {
+    width: 150px;
+    height: 42px;
+    background-color: #28B328;
+    color: #FAFAFA;
+    padding: 11px;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.provider-select, .alphabet-select {
+    padding: 4px 16px;
+    border-radius: 8px;
+    border: none;
+    color: #E1E1E1;
+    width: 171px;
+    background: #333333;
+    font-size: 14px;
+    font-weight: 500;
+}
