@@ -73,7 +73,7 @@ const App = () => {
     ];
 
     return (
-        <Router>
+        <Router basename="/tg-mini-app">
             <Routes>
                 <Route path="/" element={
                     <div className="app">
