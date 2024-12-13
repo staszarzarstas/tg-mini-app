@@ -1,13 +1,13 @@
 import HeaderPageViewAll from "../components/HeaderPageViewAll"; // Импортируем HeaderPageViewAll
 import Games from "../components/Games";
 import Footer from "../components/Footer";
-import {useNavigate} from "react-router-dom";
+// import {useNavigate} from "react-router-dom";
 import {useState} from "react"; // Импортируем useState для управления состоянием
 import {Box, Typography} from "@mui/material"; // Импортируем Box и Typography
 import '../components/styles/HeaderPageViewAll.css';
 
 const PopularGame = () => {
-    const navigate = useNavigate(); // Хук для навигации
+    // const navigate = useNavigate(); // Хук для навигации
 
     // Изначальный список игр
     const allGames = [
