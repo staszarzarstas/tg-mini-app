@@ -37,39 +37,39 @@ const App = () => {
     ];
 
     const popularGames = [
-        {title: "Fortuna", image: "/fortuna.jpg"},
-        {title: "Beware", image: "/beware.jpg"},
-        {title: "Olympus", image: "/olympus.jpg"},
-        {title: "Tomb", image: "/tomb.jpg"},
-        {title: "Wond", image: "/wond.jpg"},
-        {title: "Mahal", image: "/mahal.jpg"},
+        {title: "Fortuna", image: "/tg-mini-app/fortuna.jpg"},
+        {title: "Beware", image: "/tg-mini-app/beware.jpg"},
+        {title: "Olympus", image: "/tg-mini-app/olympus.jpg"},
+        {title: "Tomb", image: "/tg-mini-app/tomb.jpg"},
+        {title: "Wond", image: "/tg-mini-app/wond.jpg"},
+        {title: "Mahal", image: "/tg-mini-app/mahal.jpg"},
     ];
 
     const newGames = [
-        {title: "Fortuna", image: "/fortuna.jpg"},
-        {title: "Beware", image: "/beware.jpg"},
-        {title: "Olympus", image: "/olympus.jpg"},
-        {title: "Tomb", image: "/tomb.jpg"},
-        {title: "Wond", image: "/wond.jpg"},
-        {title: "Mahal", image: "/mahal.jpg"},
+        {title: "Fortuna", image: "/tg-mini-app/fortuna.jpg"},
+        {title: "Beware", image: "/tg-mini-app/beware.jpg"},
+        {title: "Olympus", image: "/tg-mini-app/olympus.jpg"},
+        {title: "Tomb", image: "/tg-mini-app/tomb.jpg"},
+        {title: "Wond", image: "/tg-mini-app/wond.jpg"},
+        {title: "Mahal", image: "/tg-mini-app/mahal.jpg"},
     ];
 
     const casinoGames = [
-        {title: "Fortuna", image: "/fortuna.jpg"},
-        {title: "Beware", image: "/beware.jpg"},
-        {title: "Olympus", image: "/olympus.jpg"},
-        {title: "Tomb", image: "/tomb.jpg"},
-        {title: "Wond", image: "/wond.jpg"},
-        {title: "Mahal", image: "/mahal.jpg"},
+        {title: "Fortuna", image: "/tg-mini-app/fortuna.jpg"},
+        {title: "Beware", image: "/tg-mini-app/beware.jpg"},
+        {title: "Olympus", image: "/tg-mini-app/olympus.jpg"},
+        {title: "Tomb", image: "/tg-mini-app/tomb.jpg"},
+        {title: "Wond", image: "/tg-mini-app/wond.jpg"},
+        {title: "Mahal", image: "/tg-mini-app/mahal.jpg"},
     ];
 
     const sportsGames = [
-        {title: "Fortuna", image: "/fortuna.jpg"},
-        {title: "Beware", image: "/beware.jpg"},
-        {title: "Olympus", image: "/olympus.jpg"},
-        {title: "Tomb", image: "/tomb.jpg"},
-        {title: "Wond", image: "/wond.jpg"},
-        {title: "Mahal", image: "/mahal.jpg"},
+        {title: "Fortuna", image: "/tg-mini-app/fortuna.jpg"},
+        {title: "Beware", image: "/tg-mini-app/beware.jpg"},
+        {title: "Olympus", image: "/tg-mini-app/olympus.jpg"},
+        {title: "Tomb", image: "/tg-mini-app/tomb.jpg"},
+        {title: "Wond", image: "/tg-mini-app/wond.jpg"},
+        {title: "Mahal", image: "/tg-mini-app/mahal.jpg"},
     ];
 
     return (

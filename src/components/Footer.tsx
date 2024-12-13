@@ -39,21 +39,21 @@ const Footer: React.FC = () => {
                     <span>
                         <img
                             className="logopng"
-                            src="src/assets/img/1img%20-%20MGA%20logo.svg"
+                            src="/tg-mini-app/1img%20-%20MGA%20logo.svg"
                             alt=""
                         />
                     </span>
                     <span>
                         <img
                             className="rating"
-                            src="src/assets/img/img%20-%2018+.svg"
+                            src="/tg-mini-app/img%20-%2018+.svg"
                             alt=""
                         />
                     </span>
                     <span>
                         <img
                             className="logogamcare"
-                            src="src/assets/img/img%20-%20Gamcare%20Logo.svg"
+                            src="/tg-mini-app/imgGamcareLogo.svg"
                             alt=""
                         />
                     </span>
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
                     }`}
                     onClick={() => handleClick("slots")}
                 >
-                    <FaDice size={24} />
+                    <FaDice size={24}/>
                     <p>Slots</p>
                 </div>
                 <div
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                     }`}
                     onClick={() => handleClick("casino")}
                 >
-                    <PiPokerChipLight size={24} />
+                    <PiPokerChipLight size={24}/>
                     <p>Casino</p>
                 </div>
                 <div
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
                     }`}
                     onClick={() => handleClick("promo")}
                 >
-                    <FaTags size={24} />
+                    <FaTags size={24}/>
                     <p>Promo</p>
                 </div>
                 <div
@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
                     }`}
                     onClick={() => handleClick("sport")}
                 >
-                    <FaFutbol size={24} />
+                    <FaFutbol size={24}/>
                     <p>Sport</p>
                 </div>
                 <div
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
                     }`}
                     onClick={() => handleClick("profile")}
                 >
-                    <FaUser size={24} />
+                    <FaUser size={24}/>
                     <p>Profile</p>
                 </div>
             </nav>
