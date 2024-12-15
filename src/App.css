@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
 
+/* Обнуление отступов и настройка коробочной модели */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Настройки для корня */
 #root {
+    padding: 0;
+    margin: 0;
+    width: 100%;
     scroll-behavior: smooth;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
 }
 
-/* Общие стили */
+/* Основные стили для body */
 body {
-    scroll-behavior: smooth;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #353535;
     color: #f5f5f5;
 }
 
+/* Основной контейнер для приложения */
 .app {
-    max-width: 375px;
+    width: 100%;
     margin: 0 auto;
     padding: 16px;
+    max-width: 375px;
 }
-
 
 /* Навигационные вкладки */
 .tabs {
@@ -46,7 +47,7 @@ body {
     cursor: pointer;
 }
 
-/* Список игр */
+/* Стили для заголовков и списка игр */
 .games h2 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -71,6 +72,7 @@ body {
     padding: 8px;
 }
 
+/* Кнопка баланса */
 .button-top-balance {
     color: black;
     background: #FFD60A;
@@ -84,4 +86,64 @@ body {
     font-size: 20px;
 }
 
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .app {
+        padding: 0;
+        margin: 0;
+    }
 
+    .games {
+        flex-direction: column;
+    }
+
+    .game-card {
+        width: 45%; /* Уменьшаем размер карточки для лучшей адаптации */
+        height: 120px;
+        margin-bottom: 16px;
+    }
+
+    .button-top-balance {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+
+/* Установка минимального фона для приложения */
+html, body {
+    height: 100%;
+}
+
+/* Поддержка для full-screen режима */
+html {
+    /*overflow: hidden;*/
+}
+
+/* Обновление шапки Telegram Mini App */
+.Telegram-Header {
+    background-color: #1e1e1e;
+    padding: 8px 16px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .app {
+        padding: 0; /* Убираем все отступы на мобильных устройствах */
+        margin: 0;  /* Убираем margin, чтобы не было отступа слева */
+    }
+
+    .games {
+        flex-direction: column;
+    }
+
+    .game-card {
+        width: 45%; /* Уменьшаем размер карточки для лучшей адаптации */
+        height: 120px;
+        margin-bottom: 16px;
+    }
+
+    .button-top-balance {
+        font-size: 18px;
+        padding: 10px;
+    }
+}

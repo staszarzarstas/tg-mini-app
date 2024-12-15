@@ -47,6 +47,7 @@ export default function ScrollableTabsButtonPrevent() {
         padding: '10px',
         backgroundColor: '#1D1D1D',
         borderRadius: '5px',
+
     });
 
     return (
@@ -93,6 +94,7 @@ export default function ScrollableTabsButtonPrevent() {
                                         backgroundColor: '#2A2A2A',
                                         borderRadius: '5px',
                                         padding: '10px',
+                                        width: '250px'
                                     },
                                     '& .MuiOutlinedInput-notchedOutline': {
                                         border: 'none',
@@ -109,6 +111,7 @@ export default function ScrollableTabsButtonPrevent() {
                                     padding: '9px',
                                     backgroundColor: '#1D1D1D',
                                     borderRadius: '10px',
+
                                 }}
                             >
                                 <CloseIcon/>
@@ -122,6 +125,7 @@ export default function ScrollableTabsButtonPrevent() {
                     bgcolor: '#1D1D1D',
                     borderRadius: '10px',
                     padding: '10px',
+                    width: '390px'
                 }}
             >
                 <Tabs

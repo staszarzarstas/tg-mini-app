@@ -18,6 +18,8 @@ import SportGames from "./pages/SportGames.tsx";
 import CasinoGames from "./pages/CasinoGames.tsx";
 
 const App = () => {
+
+
     const bonusCardsData = [
         {
             title: "Welcome Bonus",
